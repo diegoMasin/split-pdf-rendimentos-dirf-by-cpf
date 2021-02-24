@@ -23,7 +23,11 @@
   - code .
 - Acho já no VsCode, Ctrl+Shift+P, digite interpreter e escolha o interpretador python criado pelo pipenv.
 - Copie para dentro da raiz do projeto(lado a lado com o main.py) o arquivo geral de todos os rendimentos das pessoas da empresa extraído no programa da DIRF
--
+- Crie uma pasta rendimentos, e dentro dela crie mais duas pastas, extract e rename. (Pode mudar os nomes desde que inclua na configuração)
+- Edite o arquivo main.py:
+  - configure os caminhos absolutos de: extract_to e rename_to
+  - mude o prefixo_file se assim desejar
+  - coloque em filename_all_rendimentos o nome do arquivo pdf com todos os rendimentos
 
 ```
 
